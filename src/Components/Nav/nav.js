@@ -16,7 +16,11 @@ const Nav = ({ user }) => {
       <div className='row col-12  text-white text-center'>
         <h3>Fibonacci</h3>
       </div>
-      {user && <p onClick={handleClick}>Logout</p>}
+      {user && (
+        <p onClick={handleClick} className='log-out'>
+          Logout
+        </p>
+      )}
     </nav>
   )
 }

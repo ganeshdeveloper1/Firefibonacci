@@ -17,6 +17,21 @@ nav {
   background: #2b5592;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.navbar h3 {
+  font-size: 26px;
+}
+.log-out {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
 @media screen and (max-width: 450px) {
   .form,
   .login-page {
