@@ -1,0 +1,64 @@
+.form,
+.login-page {
+  background-color: white;
+  border-radius: 5px;
+  width: 550px;
+  margin: 70px auto;
+  padding: 20px;
+}
+
+.hr {
+  text-align: center;
+}
+
+span {
+  font-size: 20px;
+}
+
+.reg::after {
+  content: '';
+  display: block;
+  width: 65px;
+  height: 3px;
+  margin: 2px auto;
+  background-color: rgb(41, 78, 171);
+}
+
+.login::after {
+  content: '';
+  display: block;
+  width: 45px;
+  height: 3px;
+  margin: 2px auto;
+  background-color: rgb(41, 78, 171);
+}
+
+.form-body,
+.loginForm {
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form-body > * {
+  padding: 5px;
+}
+
+.loginForm > * {
+  padding: 4px;
+}
+
+.form__label {
+  width: 40%;
+}
+
+.form_input {
+  width: 60%;
+}
+
+.submitBtn {
+  text-align: center;
+}
+
+.btn {
+  width: 120px;
+}

@@ -1,0 +1,55 @@
+.fiboInput {
+  margin: 90px auto;
+  padding: 20px;
+  padding-left: 25px;
+  border-radius: 5px;
+}
+
+.label {
+  font-size: 18px;
+  margin-right: 7px;
+}
+.input-field {
+  margin: 20px 7px 25px;
+}
+
+.input-field input {
+  margin-right: 7px;
+}
+
+.fi-hr::after {
+  content: '';
+  display: block;
+  width: 170px;
+  height: 3px;
+  margin: 1px auto;
+  background-color: rgb(41, 78, 171);
+}
+
+.fiboNo {
+  text-align: center;
+}
+
+.fiboNo h3 {
+  font-size: 22px;
+}
+
+ul li {
+  display: inline;
+}
+
+.list-items {
+  margin-right: 12px;
+  font-size: 20px;
+  color: darkred;
+  font-weight: 500;
+}
+@media screen and (max-width: 1050px) {
+  .input-field {
+    flex-direction: column;
+  }
+
+  .input-field input {
+    margin-bottom: 8px;
+  }
+}
